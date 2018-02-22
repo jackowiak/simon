@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'News Cycle', sans-serif;
+    height: 100vh;
+    background-color: #111;
+}
+
+.operators {
+    text-align: center;
+    color: #fff;
+    padding: 60px;
+}
+
+.operator {
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Hind', sans-serif;
+    margin: 0 25px;
+    letter-spacing: 1.4px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.btn {
+    width: 150px;
+    height: 150px;
+    opacity: 0.9;
+    margin: 25px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.btnhover {
+    opacity: 0.4;
+    transform: scale(1.1);
+}
+
+
+.red {
+    background-color: #FC1414;
+    border-top-left-radius: 200%;
+}
+
+.green {
+    background-color: #14FC88;
+    border-top-right-radius: 200%;
+}
+
+.blue {
+    background-color: #2714FC;
+    border-bottom-left-radius: 200%;
+}
+
+.yellow {
+    background-color: #DEB841;
+    border-bottom-right-radius: 200%;
+}
+
+.other {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+}
+
+.start:hover, #strictmode:hover {
+    color: #ccc;
+}
+
+.start, #strictmode {
+    cursor: pointer;
+}
+
+#register, #strictmode {
+    color: #ccc;
+}
+
+
+
+

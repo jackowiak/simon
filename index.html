@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Simon Game</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="daniel jackowiak" />
+        <meta name="keyword" content="front end, project, to do list" />
+        <meta name="description" content="front-end assignments of jm" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link href="https://fonts.googleapis.com/css?family=News+Cycle|Philosopher" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="game-box">
+                <div class="operators">
+                    <div class="operator start" id="startbutton">START</div>
+                    <div class="operator register">ROUND: <span id="register" class="other">--</span></div>                    
+                    <div class="operator strict">STRICT MODE: <span id="strictmode" class="other">NO</span></div>
+                </div>
+                <div class="buttons">
+                    <div class="simon-top-board">
+                        <div class="btn red" id="red"></div>
+                        <div class="btn green" id="green"></div>
+                    </div>
+                    <div class="simon-bottom-board">
+                        <div class="btn blue" id="blue"></div>
+                        <div class="btn yellow" id="yellow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
